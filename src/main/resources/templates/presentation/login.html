@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facturacion electronica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/login.css">
+    <link rel="stylesheet" href="../../static/css/menu.css">
+<body>
+    <div class="header">
+        <div>
+            <div> Facturacion Electronica </div>&nbsp <div> <img class="logo" src="../../static/images/fact.png"/></div>
+        </div>
+        <div>
+            <ul class="Menu">
+                <li>
+                    <a href="acercaDe.html"> Acerca de... </a>
+                </li>
+                <li>
+                    <a href="login.html"> login </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <form id="loggear" method="POST" name="login" action="presentation/login/loggear">
+            <div class="form">
+                <div class="heading"> Login </div>
+                <div>
+                    <div>Identificacion</div>
+                    <input type="text" name="id" size=15 maxlength=40 value="">
+                </div>
+                <div>
+                    <div>Contraseña</div>
+                    <input type="text" name="clave" size=15 maxlength=40 value="">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

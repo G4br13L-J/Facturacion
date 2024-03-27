@@ -1,0 +1,53 @@
+.header {
+    background-color: antiquewhite;
+    font-weight: bold;
+    font-family: "Bradley Hand ITC";
+    padding: 5px;
+    font-size:  xx-large;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+img.logo {
+    width: 120px;
+}
+
+div.header>div:first-child{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+#loggear { width: 100%}
+
+.form{
+    width: 50%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+
+.form div{
+    display: flex;
+    align-items: center; /* vertically centered */
+}
+
+.form .heading{
+    justify-content: center;  /* horizontally centered */
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
+    font-family: "Bradley Hand ITC";
+}
