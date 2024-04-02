@@ -26,13 +26,24 @@
         <form id="loggear" method="POST" name="login" action="presentation/login/loggear">
             <div class="form">
                 <div class="heading"> Login </div>
-                <div>
+                <div class="contents">
                     <div>Identificacion</div>
-                    <input type="text" name="id" size=15 maxlength=40 value="">
+                    <div>
+                    <input class="textbox" type="text" name="id" size=15 maxlength=40 value="">
+                    </div>
                 </div>
-                <div>
+                <div class="contents">
                     <div>Contraseña</div>
-                    <input type="text" name="clave" size=15 maxlength=40 value="">
+                    <div>
+                    <input class="textbox" type="text" name="clave" size=15 maxlength=40 value="">
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" name="login" value="login">
+                </div>
+                <div class="no-account">
+                    <p> No tiene cuenta?... <br> <br> <br>
+                    <a href="registro.html"> Registrese aqui </a> </p>
                 </div>
             </div>
         </form>
